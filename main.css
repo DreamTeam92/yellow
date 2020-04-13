@@ -7127,8 +7127,8 @@ body pre {
 }
 
 .header-logo img {
-	width: 120px;
-	height: 30px
+	width: 240px;
+	height: 40px
 }
 
 .menu-holder {
@@ -8579,7 +8579,7 @@ ul#footer-sidebar li.widget select {
 		margin-top: 20px
 	}
 	.header-logo img {
-		max-width: 140px;
+		max-width: 240px;
 		width: auto!important;
 		height: auto!important
 	}
