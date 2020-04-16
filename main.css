@@ -7,7 +7,7 @@ body .site-wrapper .sm-clean a:hover, body .site-wrapper .main-menu.sm-clean .su
 .site-wrapper .header-holder, .site-wrapper .menu-holder, .site-wrapper .sm-clean ul {
 	background-color: #fdb10e;
 }
-body .site-wrapper a, body .site-wrapper a:hover, .site-wrapper blockquote:before, .site-wrapper .blog-item-holder .cat-links ul a, .site-wrapper .navigation.pagination a:hover, .site-wrapper blockquote:not(.cocobasic-block-pullquote):before, .single .site-wrapper .entry-info .cat-links li:after, .site-wrapper .tags-holder a, .single .site-wrapper .wp-link-pages, .site-wrapper .comment-form-holder a:hover, .site-wrapper .replay-at-author, body .site-wrapper .footer a:hover {
+body .site-wrapper a, body .site-wrapper a:hover, .site-wrapper blockquote:before, .site-wrapper .blog-item-holder .cat-links ul a, .site-wrapper .navigation.pagination a:hover, .site-wrapper blockquote:not(.musclerestore-block-pullquote):before, .single .site-wrapper .entry-info .cat-links li:after, .site-wrapper .tags-holder a, .single .site-wrapper .wp-link-pages, .site-wrapper .comment-form-holder a:hover, .site-wrapper .replay-at-author, body .site-wrapper .footer a:hover {
 	color:#552583;
 }
 .blog .site-wrapper .more-posts, .blog .site-wrapper .no-more-posts, .blog .site-wrapper .more-posts-loading, .site-wrapper .navigation.pagination .current, .site-wrapper .tags-holder a:hover, .search .site-wrapper h1.entry-title, .archive .site-wrapper h1.entry-title {
@@ -101,7 +101,7 @@ body .site-wrapper a, body .site-wrapper a:hover, .site-wrapper blockquote:befor
 }
 
 .elementor-page-10 {
-	background-image: url("https://demo.cocobasic.com/cardea-wp/demo-4/wp-content/uploads/2019/05/contact_image.png");
+	background-image: url("https://demo.musclerestore.com/cardea-wp/demo-4/wp-content/uploads/2019/05/contact_image.png");
 	background-color: #fdb927!important;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -469,11 +469,11 @@ div.light_square .pp_content .ppt {
 }
 
 div.facebook .pp_loaderIcon {
-	background: url(//demo.cocobasic.com/cardea-wp/demo-4/wp-content/plugins/cocobasic-shortcode/css/../images/prettyPhoto/facebook/loader.gif) center center no-repeat
+	background: url(//demo.musclerestore.com/cardea-wp/demo-4/wp-content/plugins/musclerestore-shortcode/css/../images/prettyPhoto/facebook/loader.gif) center center no-repeat
 }
 
 div.facebook .pp_arrow_previous {
-	background: url(//demo.cocobasic.com/cardea-wp/demo-4/wp-content/plugins/cocobasic-shortcode/css/../images/prettyPhoto/facebook/sprite.png) 0 -71px no-repeat;
+	background: url(//demo.musclerestore.com/cardea-wp/demo-4/wp-content/plugins/musclerestore-shortcode/css/../images/prettyPhoto/facebook/sprite.png) 0 -71px no-repeat;
 	height: 22px;
 	margin-top: 0;
 	width: 22px
@@ -988,7 +988,7 @@ div.ppt {
 	top: 50%;
 	margin-left: -40px;
 	margin-top: -40px;
-	background: url(//demo.cocobasic.com/cardea-wp/demo-4/wp-content/plugins/cocobasic-shortcode/css/owl.video.play.png) no-repeat;
+	background: url(//demo.musclerestore.com/cardea-wp/demo-4/wp-content/plugins/musclerestore-shortcode/css/owl.video.play.png) no-repeat;
 	cursor: pointer;
 	z-index: 1;
 	-webkit-backface-visibility: hidden;
@@ -1203,7 +1203,7 @@ div.ppt {
 	}
 }
 
-span.cocobasic-extra-border {
+span.musclerestore-extra-border {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1213,7 +1213,7 @@ span.cocobasic-extra-border {
 	z-index: 1
 }
 
-span.cocobasic-extra-width {
+span.musclerestore-extra-width {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1760,7 +1760,7 @@ a.button:hover {
 }
 
 .close-icon {
-	background-image: url(//demo.cocobasic.com/cardea-wp/demo-4/wp-content/plugins/cocobasic-shortcode/css/../images/close-left-arrow.png);
+	background-image: url(//demo.musclerestore.com/cardea-wp/demo-4/wp-content/plugins/musclerestore-shortcode/css/../images/close-left-arrow.png);
 	background-repeat: no-repeat;
 	width: 70px;
 	height: 70px;
@@ -2010,7 +2010,7 @@ div.pp_default .pp_loaderIcon {
 }
 
 div.pp_default a.pp_arrow_previous {
-	background-image: url(//demo.cocobasic.com/cardea-wp/demo-4/wp-content/plugins/cocobasic-shortcode/css/../images/nav_left.png);
+	background-image: url(//demo.musclerestore.com/cardea-wp/demo-4/wp-content/plugins/musclerestore-shortcode/css/../images/nav_left.png);
 	background-size: 20px 20px;
 	width: 20px;
 	height: 20px;
@@ -2022,7 +2022,7 @@ div.pp_default a.pp_arrow_previous {
 }
 
 div.pp_default a.pp_arrow_next {
-	background-image: url(//demo.cocobasic.com/cardea-wp/demo-4/wp-content/plugins/cocobasic-shortcode/css/../images/nav_right.png);
+	background-image: url(//demo.musclerestore.com/cardea-wp/demo-4/wp-content/plugins/musclerestore-shortcode/css/../images/nav_right.png);
 	background-size: 20px 20px;
 	width: 20px;
 	height: 20px;
@@ -2043,7 +2043,7 @@ div.pp_default a.pp_arrow_next:hover {
 }
 
 div.pp_default .pp_close {
-	background-image: url(//demo.cocobasic.com/cardea-wp/demo-4/wp-content/plugins/cocobasic-shortcode/css/../images/close.png);
+	background-image: url(//demo.musclerestore.com/cardea-wp/demo-4/wp-content/plugins/musclerestore-shortcode/css/../images/close.png);
 	background-size: 30px 30px;
 	margin-top: 5px;
 	text-indent: -99999999px;
@@ -2052,7 +2052,7 @@ div.pp_default .pp_close {
 }
 
 div.pp_default .pp_next:hover {
-	background: url(//demo.cocobasic.com/cardea-wp/demo-4/wp-content/plugins/cocobasic-shortcode/css/../images/nav_right.png);
+	background: url(//demo.musclerestore.com/cardea-wp/demo-4/wp-content/plugins/musclerestore-shortcode/css/../images/nav_right.png);
 	cursor: pointer;
 	background-repeat: no-repeat;
 	background-position: 95% 50%;
@@ -2060,7 +2060,7 @@ div.pp_default .pp_next:hover {
 }
 
 div.pp_default .pp_previous:hover {
-	background: url(//demo.cocobasic.com/cardea-wp/demo-4/wp-content/plugins/cocobasic-shortcode/css/../images/nav_left.png);
+	background: url(//demo.musclerestore.com/cardea-wp/demo-4/wp-content/plugins/musclerestore-shortcode/css/../images/nav_left.png);
 	cursor: pointer;
 	background-repeat: no-repeat;
 	background-position: 5% 50%;
@@ -2670,10 +2670,10 @@ li.timeline-event:hover .timeline-event-date {
 		bottom: 0;
 		transform: none
 	}
-	.coco-2border>.elementor-column-wrap {
+	.muscle-2border>.elementor-column-wrap {
 		border: 0!important
 	}
-	.cocobasic-extra-border {
+	.musclerestore-extra-border {
 		display: none
 	}
 }
@@ -2854,7 +2854,7 @@ span.wpcf7-list-item-label:after {
 div.wpcf7 .ajax-loader {
 	visibility: hidden;
 	display: inline-block;
-	background-image: url(//demo.cocobasic.com/cardea-wp/demo-4/wp-content/plugins/contact-form-7/includes/css/../../images/ajax-loader.gif);
+	background-image: url(//demo.musclerestore.com/cardea-wp/demo-4/wp-content/plugins/contact-form-7/includes/css/../../images/ajax-loader.gif);
 	width: 16px;
 	height: 16px;
 	border: none;
@@ -3273,7 +3273,7 @@ textarea:focus {
 	display: block
 }
 
-blockquote:not(.cocobasic-block-pullquote) {
+blockquote:not(.musclerestore-block-pullquote) {
 	font-weight: 300;
 	font-style: italic;
 	margin-top: 50px;
@@ -3286,7 +3286,7 @@ blockquote:not(.cocobasic-block-pullquote) {
 	position: relative
 }
 
-blockquote:not(.cocobasic-block-pullquote) cite {
+blockquote:not(.musclerestore-block-pullquote) cite {
 	margin-top: 20px;
 	display: block;
 	font-weight: 400
@@ -3530,8 +3530,8 @@ a img.aligncenter {
 
 @font-face {
 	font-family: fontawesome;
-	src: url(//demo.cocobasic.com/cardea-wp/demo-4/wp-content/plugins/elementor/assets/lib/font-awesome/css/../fonts/fontawesome-webfont.eot?v=4.7.0);
-	src: url(//demo.cocobasic.com/cardea-wp/demo-4/wp-content/plugins/elementor/assets/lib/font-awesome/css/../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(//demo.cocobasic.com/cardea-wp/demo-4/wp-content/plugins/elementor/assets/lib/font-awesome/css/../fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff2'), url(//demo.cocobasic.com/cardea-wp/demo-4/wp-content/plugins/elementor/assets/lib/font-awesome/css/../fonts/fontawesome-webfont.woff?v=4.7.0) format('woff'), url(//demo.cocobasic.com/cardea-wp/demo-4/wp-content/plugins/elementor/assets/lib/font-awesome/css/../fonts/fontawesome-webfont.ttf?v=4.7.0) format('truetype'), url(//demo.cocobasic.com/cardea-wp/demo-4/wp-content/plugins/elementor/assets/lib/font-awesome/css/../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format('svg');
+	src: url(//demo.musclerestore.com/cardea-wp/demo-4/wp-content/plugins/elementor/assets/lib/font-awesome/css/../fonts/fontawesome-webfont.eot?v=4.7.0);
+	src: url(//demo.musclerestore.com/cardea-wp/demo-4/wp-content/plugins/elementor/assets/lib/font-awesome/css/../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(//demo.musclerestore.com/cardea-wp/demo-4/wp-content/plugins/elementor/assets/lib/font-awesome/css/../fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff2'), url(//demo.musclerestore.com/cardea-wp/demo-4/wp-content/plugins/elementor/assets/lib/font-awesome/css/../fonts/fontawesome-webfont.woff?v=4.7.0) format('woff'), url(//demo.musclerestore.com/cardea-wp/demo-4/wp-content/plugins/elementor/assets/lib/font-awesome/css/../fonts/fontawesome-webfont.ttf?v=4.7.0) format('truetype'), url(//demo.musclerestore.com/cardea-wp/demo-4/wp-content/plugins/elementor/assets/lib/font-awesome/css/../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format('svg');
 	font-weight: 400;
 	font-style: normal
 }
@@ -7016,7 +7016,7 @@ body a:hover {
 	color: #ff1e5c
 }
 
-blockquote:not(.cocobasic-block-pullquote) {
+blockquote:not(.musclerestore-block-pullquote) {
 	font-size: 24px;
 	line-height: 40px;
 	font-style: normal;
@@ -7024,11 +7024,11 @@ blockquote:not(.cocobasic-block-pullquote) {
 	max-width: 450px
 }
 
-.single-post blockquote:not(.cocobasic-block-pullquote) {
+.single-post blockquote:not(.musclerestore-block-pullquote) {
 	margin-right: 0
 }
 
-blockquote:not(.cocobasic-block-pullquote):before {
+blockquote:not(.musclerestore-block-pullquote):before {
 	content: '\201C';
 	font-size: 180px;
 	line-height: 100%;
@@ -8416,7 +8416,7 @@ ul#footer-sidebar li.widget select {
 }
 
 @media screen and (max-width:1220px) {
-	blockquote:not(.cocobasic-block-pullquote) {
+	blockquote:not(.musclerestore-block-pullquote) {
 		font-size: 17px;
 		line-height: 28px
 	}
@@ -8609,11 +8609,11 @@ ul#footer-sidebar li.widget select {
 	.site-content {
 		overflow: hidden
 	}
-	blockquote:not(.cocobasic-block-pullquote) {
+	blockquote:not(.musclerestore-block-pullquote) {
 		max-width: 100%;
 		margin-top: 70px
 	}
-	blockquote:not(.cocobasic-block-pullquote):before {
+	blockquote:not(.musclerestore-block-pullquote):before {
 		position: relative;
 		left: 0;
 		font-size: 180px;
@@ -8677,8 +8677,8 @@ ul#footer-sidebar li.widget select {
 
 @font-face {
 	font-family: eicons;
-	src: url(//demo.cocobasic.com/cardea-wp/demo-4/wp-content/plugins/elementor/assets/lib/eicons/css/../fonts/eicons.eot?5.6.2);
-	src: url(//demo.cocobasic.com/cardea-wp/demo-4/wp-content/plugins/elementor/assets/lib/eicons/css/../fonts/eicons.eot?5.6.2#iefix) format("embedded-opentype"), url(//demo.cocobasic.com/cardea-wp/demo-4/wp-content/plugins/elementor/assets/lib/eicons/css/../fonts/eicons.woff2?5.6.2) format("woff2"), url(//demo.cocobasic.com/cardea-wp/demo-4/wp-content/plugins/elementor/assets/lib/eicons/css/../fonts/eicons.woff?5.6.2) format("woff"), url(//demo.cocobasic.com/cardea-wp/demo-4/wp-content/plugins/elementor/assets/lib/eicons/css/../fonts/eicons.ttf?5.6.2) format("truetype"), url(//demo.cocobasic.com/cardea-wp/demo-4/wp-content/plugins/elementor/assets/lib/eicons/css/../fonts/eicons.svg?5.6.2#eicon) format("svg");
+	src: url(//demo.musclerestore.com/cardea-wp/demo-4/wp-content/plugins/elementor/assets/lib/eicons/css/../fonts/eicons.eot?5.6.2);
+	src: url(//demo.musclerestore.com/cardea-wp/demo-4/wp-content/plugins/elementor/assets/lib/eicons/css/../fonts/eicons.eot?5.6.2#iefix) format("embedded-opentype"), url(//demo.musclerestore.com/cardea-wp/demo-4/wp-content/plugins/elementor/assets/lib/eicons/css/../fonts/eicons.woff2?5.6.2) format("woff2"), url(//demo.musclerestore.com/cardea-wp/demo-4/wp-content/plugins/elementor/assets/lib/eicons/css/../fonts/eicons.woff?5.6.2) format("woff"), url(//demo.musclerestore.com/cardea-wp/demo-4/wp-content/plugins/elementor/assets/lib/eicons/css/../fonts/eicons.ttf?5.6.2) format("truetype"), url(//demo.musclerestore.com/cardea-wp/demo-4/wp-content/plugins/elementor/assets/lib/eicons/css/../fonts/eicons.svg?5.6.2#eicon) format("svg");
 	font-weight: 400;
 	font-style: normal
 }
