@@ -38,8 +38,8 @@ body .site-wrapper a, body .site-wrapper a:hover, .site-wrapper blockquote:befor
 }
 
 .elementor-page-2 {
-	background-image: url("images/hello1366x1025.png");
-	background-color: #f1e7e8 !important;
+	background-image: linear-gradient(to bottom, #ffffff, #faf9fb, #f7f3f6, #f4edef, #f1e7e8);
+	background-color: ;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: contain;
