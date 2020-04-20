@@ -1,23 +1,23 @@
 body {
-	background-color:#fed172!important;
+	background-color:#f1e7e8!important;
 }
 body .site-wrapper .sm-clean a:hover, body .site-wrapper .main-menu.sm-clean .sub-menu li a:hover, body .site-wrapper .sm-clean li.active a, body .site-wrapper .sm-clean li.current-page-ancestor > a, body .site-wrapper .sm-clean li.current_page_ancestor > a, body .site-wrapper .sm-clean li.current_page_item > a {
-	color:#552583!important;
+	color:#59437a!important;
 }
 .site-wrapper .header-holder, .site-wrapper .menu-holder, .site-wrapper .sm-clean ul {
-	background-color: #fdb10e;
+	background-color: #f5ced5;
 }
 body .site-wrapper a, body .site-wrapper a:hover, .site-wrapper blockquote:before, .site-wrapper .blog-item-holder .cat-links ul a, .site-wrapper .navigation.pagination a:hover, .site-wrapper blockquote:not(.musclerestore-block-pullquote):before, .single .site-wrapper .entry-info .cat-links li:after, .site-wrapper .tags-holder a, .single .site-wrapper .wp-link-pages, .site-wrapper .comment-form-holder a:hover, .site-wrapper .replay-at-author, body .site-wrapper .footer a:hover {
-	color:#552583;
+	color:#59437a;
 }
 .blog .site-wrapper .more-posts, .blog .site-wrapper .no-more-posts, .blog .site-wrapper .more-posts-loading, .site-wrapper .navigation.pagination .current, .site-wrapper .tags-holder a:hover, .search .site-wrapper h1.entry-title, .archive .site-wrapper h1.entry-title {
-	background-color:#552583;
+	background-color:#59437a;
 }
 .site-wrapper .tags-holder a {
-	border-color:#552583;
+	border-color:#59437a;
 }
 .site-wrapper .doc-loader {
-	background-color:#fdb927;
+	background-color:#f3d2d8;
 }
 
     
@@ -31,7 +31,7 @@ body .site-wrapper a, body .site-wrapper a:hover, .site-wrapper blockquote:befor
 
 .elementor-page-1 {
 	background-image: url("images/mainPage1366x836.png");
-	background-color: #fed172 !important;
+	background-color: #f1e7e8 !important;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -39,42 +39,42 @@ body .site-wrapper a, body .site-wrapper a:hover, .site-wrapper blockquote:befor
 
 .elementor-page-2 {
 	background-image: url("images/hello1366x1025.png");
-	background-color: #fed172 !important;
+	background-color: #f1e7e8 !important;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: contain;
 }
 
 .elementor-page-3 {
-	background-color: #fed172 !important;
+	background-color: #f1e7e8 !important;
 	background-position: left top;
 	background-repeat: no-repeat;
 	background-size: auto;
 }
 
 .elementor-page-4 {
-	background-color: #fdb927!important;
+	background-color: #f3d2d8!important;
 	background-position: left top;
 	background-repeat: no-repeat;
 	background-size: auto;
 }
 
 .elementor-page-47 {
-	background-color: #fdb927!important;
+	background-color: #f3d2d8!important;
 	background-position: left top;
 	background-repeat: no-repeat;
 	background-size: auto;
 }
 
 .elementor-page-5 {
-	background-color: #fed172 !important;
+	background-color: #f1e7e8 !important;
 	background-position: left top;
 	background-repeat: no-repeat;
 	background-size: auto;
 }
 
 .elementor-page-6 {
-	background-color: #fdb927!important;
+	background-color: #f3d2d8!important;
 	background-position: left top;
 	background-repeat: no-repeat;
 	background-size: auto;
@@ -87,14 +87,14 @@ body .site-wrapper a, body .site-wrapper a:hover, .site-wrapper blockquote:befor
 }
 
 .elementor-page-8 {
-	background-color: #fdb927!important;
+	background-color: #f3d2d8!important;
 	background-position: left top;
 	background-repeat: no-repeat;
 	background-size: auto;
 }
 
 .elementor-page-9 {
-	background-color: #fed172 !important;
+	background-color: #f1e7e8 !important;
 	background-position: left top;
 	background-repeat: no-repeat;
 	background-size: auto;
@@ -102,7 +102,7 @@ body .site-wrapper a, body .site-wrapper a:hover, .site-wrapper blockquote:befor
 
 .elementor-page-10 {
 	background-image: url("https://demo.musclerestore.com/cardea-wp/demo-4/wp-content/uploads/2019/05/contact_image.png");
-	background-color: #fdb927!important;
+	background-color: #f3d2d8!important;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: auto;
@@ -1901,7 +1901,7 @@ a.button:hover {
 .v-skill {
 	width: 10%;
 	height: 300px;
-	background-color: #c7b8d7;
+	background-color: #e6d2df;
 	position: relative;
 	display: inline-block;
 	margin-right: 7%;
@@ -1917,7 +1917,7 @@ a.button:hover {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	background-color: #552583;
+	background-color: #59437a;
 	border-radius: 0 0 7px 7px
 }
 
@@ -1936,14 +1936,14 @@ a.button:hover {
 }
 
 .v-skill-percent {
-	color: #552583;
+	color: #59437a;
 	font-size: 63px;
 	font-weight: 700;
 	line-height: 100%
 }
 
 .v-skill-text {
-	color: #552583;
+	color: #59437a;
 	font-size: 18px;
 	line-height: 100%;
 	letter-spacing: 3px
@@ -16952,7 +16952,7 @@ button.swiper-pagination-bullet {
 
 .elementor-2 .elementor-element.elementor-element-a11:not(.elementor-motion-effects-element-type-background)>.elementor-column-wrap,
 .elementor-2 .elementor-element.elementor-element-a11>.elementor-column-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-	background-color: #fdb927;
+	background-color: #f3d2d8;
 }
 
 .elementor-2 .elementor-element.elementor-element-a11>.elementor-element-populated,
@@ -16998,7 +16998,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-2 .elementor-element.elementor-element-a14 {
-	color: #552583;
+	color: #59437a;
 	font-size: 16px;
 	font-weight: 400;
 	letter-spacing: 3px;
@@ -17013,7 +17013,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-2 .elementor-element.elementor-element-a15 .elementor-heading-title {
-	color: #552583;
+	color: #59437a;
 	font-size: 52px;
 	font-weight: 700;
 	letter-spacing: -1px;
@@ -17032,14 +17032,14 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-2 .elementor-element.elementor-element-a18 .elementor-heading-title {
-	color: #552583;
+	color: #59437a;
 	font-size: 27px;
 	font-weight: 600;
 	line-height: 27px;
 }
 
 .elementor-2 .elementor-element.elementor-element-a19 {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-2 .elementor-element.elementor-element-a19>.elementor-widget-container {
@@ -17047,13 +17047,13 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-2 .elementor-element.elementor-element-a20 .elementor-heading-title {
-	color: #552583;
+	color: #59437a;
 	font-size: 27px;
 	font-weight: 600;
 }
 
 .elementor-2 .elementor-element.elementor-element-a21 {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-2 .elementor-element.elementor-element-a21>.elementor-widget-container {
@@ -17061,13 +17061,13 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-2 .elementor-element.elementor-element-a22 .elementor-heading-title {
-	color: #552583;
+	color: #59437a;
 	font-size: 27px;
 	font-weight: 600;
 }
 
 .elementor-2 .elementor-element.elementor-element-a23 {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-2 .elementor-element.elementor-element-a23>.elementor-widget-container {
@@ -17075,13 +17075,13 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-2 .elementor-element.elementor-element-a24 .elementor-heading-title {
-	color: #552583;
+	color: #59437a;
 	font-size: 27px;
 	font-weight: 600;
 }
 
 .elementor-2 .elementor-element.elementor-element-a25 {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-2 .elementor-element.elementor-element-a25>.elementor-widget-container {
@@ -17197,7 +17197,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-3 .elementor-element.elementor-element-a33 {
-	color: #552583;
+	color: #59437a;
 	font-size: 16px;
 	font-weight: 400;
 	letter-spacing: 3px;
@@ -17214,7 +17214,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-3 .elementor-element.elementor-element-a34 .elementor-heading-title {
-	color: #552583;
+	color: #59437a;
 	font-size: 52px;
 	font-weight: 700;
 	letter-spacing: -1px;
@@ -17253,7 +17253,7 @@ button.swiper-pagination-bullet {
 
 .elementor-3 .elementor-element.elementor-element-a37:not(.elementor-motion-effects-element-type-background)>.elementor-column-wrap,
 .elementor-3 .elementor-element.elementor-element-a37>.elementor-column-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-	background-color: #fdb927;
+	background-color: #f3d2d8;
 }
 
 .elementor-3 .elementor-element.elementor-element-a37>.elementor-element-populated,
@@ -17311,11 +17311,11 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-3 .elementor-element.elementor-element-a41 .elementor-image-box-content .elementor-image-box-title {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-3 .elementor-element.elementor-element-a41 .elementor-image-box-content .elementor-image-box-description {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-3 .elementor-element.elementor-element-a42>.elementor-element-populated {
@@ -17343,11 +17343,11 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-3 .elementor-element.elementor-element-a43 .elementor-image-box-content .elementor-image-box-title {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-3 .elementor-element.elementor-element-a43 .elementor-image-box-content .elementor-image-box-description {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-3 .elementor-element.elementor-element-a44>.elementor-element-populated {
@@ -17375,11 +17375,11 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-3 .elementor-element.elementor-element-a45 .elementor-image-box-content .elementor-image-box-title {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-3 .elementor-element.elementor-element-a45 .elementor-image-box-content .elementor-image-box-description {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-3 .elementor-element.elementor-element-a46>.elementor-element-populated {
@@ -17415,11 +17415,11 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-3 .elementor-element.elementor-element-a47 .elementor-image-box-content .elementor-image-box-title {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-3 .elementor-element.elementor-element-a47 .elementor-image-box-content .elementor-image-box-description {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-3 .elementor-element.elementor-element-a50 .elementor-spacer-inner {
@@ -17647,7 +17647,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-4 .elementor-element.elementor-element-a58 .elementor-heading-title {
-	color: #fdb927;
+	color: #f3d2d8;
 	font-size: 90px;
 	font-weight: 700;
 	line-height: 109px;
@@ -17672,7 +17672,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-4 .elementor-element.elementor-element-a60 {
-	color: #552583;
+	color: #59437a;
 	font-size: 16px;
 	font-weight: 400;
 	letter-spacing: 3px;
@@ -17687,7 +17687,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-4 .elementor-element.elementor-element-a61 .elementor-heading-title {
-	color: #552583;
+	color: #59437a;
 	font-size: 52px;
 	font-weight: 700;
 	letter-spacing: -1px;
@@ -17719,7 +17719,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-4 .elementor-element.elementor-element-a68 .elementor-heading-title {
-	color: #552583;
+	color: #59437a;
 	font-size: 36px;
 	font-weight: 700;
 }
@@ -17732,7 +17732,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-4 .elementor-element.elementor-element-a70 {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-4 .elementor-element.elementor-element-a71:not(.elementor-motion-effects-element-type-background),
@@ -17755,7 +17755,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-4 .elementor-element.elementor-element-a73 .elementor-counter-number-wrapper {
-	color: #fdb927;
+	color: #f3d2d8;
 	font-size: 125px;
 	font-weight: 700;
 	letter-spacing: -5px;
@@ -17769,7 +17769,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-4 .elementor-element.elementor-element-a75 .elementor-counter-number-wrapper {
-	color: #fdb927;
+	color: #f3d2d8;
 	font-size: 125px;
 	font-weight: 700;
 	letter-spacing: -5px;
@@ -17783,7 +17783,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-4 .elementor-element.elementor-element-a77 .elementor-counter-number-wrapper {
-	color: #fdb927;
+	color: #f3d2d8;
 	font-size: 125px;
 	font-weight: 700;
 	letter-spacing: -5px;
@@ -17797,7 +17797,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-4 .elementor-element.elementor-element-a79 .elementor-counter-number-wrapper {
-	color: #fdb927;
+	color: #f3d2d8;
 	font-size: 125px;
 	font-weight: 700;
 	letter-spacing: -5px;
@@ -17967,7 +17967,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-47 .elementor-element.elementor-element-9349063 {
-	color: #552583;
+	color: #59437a;
 	font-size: 16px;
 	font-weight: 400;
 	letter-spacing: 3px;
@@ -17984,7 +17984,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-47 .elementor-element.elementor-element-5995030 .elementor-heading-title {
-	color: #552583;
+	color: #59437a;
 	font-size: 52px;
 	font-weight: 700;
 	letter-spacing: -1px;
@@ -18046,7 +18046,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-47 .elementor-element.elementor-element-55e1f9f .elementor-heading-title {
-	color: #fdb927;
+	color: #f3d2d8;
 	font-size: 90px;
 	font-weight: 700;
 	line-height: 109px;
@@ -18059,7 +18059,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-47 .elementor-element.elementor-element-d0fe5c4 .grid-item a.item-link:after {
-	background-color: #552583;
+	background-color: #59437a;
 }
 
 .elementor-47 .elementor-element.elementor-element-d0fe5c4 a.item-link:before {
@@ -18083,15 +18083,15 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-47 .elementor-element.elementor-element-d0fe5c4 .more-posts-portfolio {
-	background-color: #552583;
+	background-color: #59437a;
 }
 
 .elementor-47 .elementor-element.elementor-element-d0fe5c4 .no-more-posts-portfolio {
-	background-color: #552583;
+	background-color: #59437a;
 }
 
 .elementor-47 .elementor-element.elementor-element-d0fe5c4 .more-posts-portfolio-loading {
-	background-color: #552583;
+	background-color: #59437a;
 }
 
 .elementor-47 .elementor-element.elementor-element-d0fe5c4 .more-posts-portfolio img {
@@ -18236,7 +18236,7 @@ button.swiper-pagination-bullet {
 
 .elementor-5 .elementor-element.elementor-element-a86:not(.elementor-motion-effects-element-type-background)>.elementor-column-wrap,
 .elementor-5 .elementor-element.elementor-element-a86>.elementor-column-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-	background-color: #fdb927;
+	background-color: #f3d2d8;
 }
 
 .elementor-5 .elementor-element.elementor-element-a86>.elementor-element-populated,
@@ -18283,7 +18283,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-5 .elementor-element.elementor-element-a89 {
-	color: #552583;
+	color: #59437a;
 	font-size: 16px;
 	font-weight: 400;
 	letter-spacing: 3px;
@@ -18298,7 +18298,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-5 .elementor-element.elementor-element-a90 .elementor-heading-title {
-	color: #552583;
+	color: #59437a;
 	font-size: 52px;
 	font-weight: 700;
 	letter-spacing: -1px;
@@ -18309,7 +18309,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-5 .elementor-element.elementor-element-a93 {
-	color: #552583;
+	color: #59437a;
 	font-size: 22px;
 	font-weight: 600;
 	line-height: 30px;
@@ -18320,7 +18320,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-5 .elementor-element.elementor-element-a95 {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-5 .elementor-element.elementor-element-a96 {
@@ -18356,14 +18356,14 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-5 .elementor-element.elementor-element-a100 .elementor-heading-title {
-	color: #552583;
+	color: #59437a;
 	font-size: 36px;
 	font-weight: 700;
 }
 
 .elementor-5 .elementor-element.elementor-element-a100>.elementor-widget-container {
 	padding: 20px 0px 20px 0px;
-	background-color: #fdb927;
+	background-color: #f3d2d8;
 	border-radius: 3px 0px 3px 0px;
 }
 
@@ -18372,7 +18372,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-5 .elementor-element.elementor-element-a101 {
-	color: #552583;
+	color: #59437a;
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 36px;
@@ -18385,12 +18385,12 @@ button.swiper-pagination-bullet {
 .elementor-5 .elementor-element.elementor-element-a102 .elementor-button {
 	font-weight: 700;
 	letter-spacing: 0px;
-	fill: #552583;
-	color: #552583;
+	fill: #59437a;
+	color: #59437a;
 	background-color: rgba(204, 0, 51, 0);
 	border-style: solid;
 	border-width: 3px 3px 3px 3px;
-	border-color: #552583;
+	border-color: #59437a;
 	border-radius: 10px 10px 10px 10px;
 	padding: 26px 40px 26px 40px;
 }
@@ -18439,14 +18439,14 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-5 .elementor-element.elementor-element-a106 .elementor-heading-title {
-	color: #552583;
+	color: #59437a;
 	font-size: 36px;
 	font-weight: 700;
 }
 
 .elementor-5 .elementor-element.elementor-element-a106>.elementor-widget-container {
 	padding: 20px 0px 20px 0px;
-	background-color: #fdb927;
+	background-color: #f3d2d8;
 	border-radius: 3px 0px 3px 0px;
 }
 
@@ -18455,7 +18455,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-5 .elementor-element.elementor-element-a107 {
-	color: #552583;
+	color: #59437a;
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 36px;
@@ -18468,12 +18468,12 @@ button.swiper-pagination-bullet {
 .elementor-5 .elementor-element.elementor-element-a108 .elementor-button {
 	font-weight: 700;
 	letter-spacing: 0px;
-	fill: #552583;
-	color: #552583;
+	fill: #59437a;
+	color: #59437a;
 	background-color: rgba(204, 0, 51, 0);
 	border-style: solid;
 	border-width: 3px 3px 3px 3px;
-	border-color: #552583;
+	border-color: #59437a;
 	border-radius: 10px 10px 10px 10px;
 	padding: 26px 40px 26px 40px;
 }
@@ -18522,14 +18522,14 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-5 .elementor-element.elementor-element-a112 .elementor-heading-title {
-	color: #552583;
+	color: #59437a;
 	font-size: 36px;
 	font-weight: 700;
 }
 
 .elementor-5 .elementor-element.elementor-element-a112>.elementor-widget-container {
 	padding: 20px 0px 20px 0px;
-	background-color: #fdb927;
+	background-color: #f3d2d8;
 	border-radius: 3px 0px 3px 0px;
 }
 
@@ -18538,7 +18538,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-5 .elementor-element.elementor-element-a113 {
-	color: #552583;
+	color: #59437a;
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 36px;
@@ -18551,12 +18551,12 @@ button.swiper-pagination-bullet {
 .elementor-5 .elementor-element.elementor-element-a114 .elementor-button {
 	font-weight: 700;
 	letter-spacing: 0px;
-	fill: #552583;
-	color: #552583;
+	fill: #59437a;
+	color: #59437a;
 	background-color: rgba(204, 0, 51, 0);
 	border-style: solid;
 	border-width: 3px 3px 3px 3px;
-	border-color: #552583;
+	border-color: #59437a;
 	border-radius: 10px 10px 10px 10px;
 	padding: 26px 40px 26px 40px;
 }
@@ -18698,7 +18698,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-6 .elementor-element.elementor-element-a123 {
-	color: #552583;
+	color: #59437a;
 	font-size: 16px;
 	font-weight: 400;
 	letter-spacing: 3px;
@@ -18715,7 +18715,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-6 .elementor-element.elementor-element-a124 .elementor-heading-title {
-	color: #552583;
+	color: #59437a;
 	font-size: 52px;
 	font-weight: 700;
 	letter-spacing: -1px;
@@ -18777,7 +18777,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-6 .elementor-element.elementor-element-a128 .elementor-heading-title {
-	color: #fdb927;
+	color: #f3d2d8;
 	font-size: 90px;
 	font-weight: 700;
 	line-height: 109px;
@@ -18814,15 +18814,15 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-6 .elementor-element.elementor-element-a133 {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-6 .elementor-element.elementor-element-a134 .elementor-button {
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 16px;
-	fill: #552583;
-	color: #552583;
+	fill: #59437a;
+	color: #59437a;
 	background-color: rgba(0, 0, 0, 0);
 }
 
@@ -18866,15 +18866,15 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-6 .elementor-element.elementor-element-a138 {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-6 .elementor-element.elementor-element-a139 .elementor-button {
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 16px;
-	fill: #552583;
-	color: #552583;
+	fill: #59437a;
+	color: #59437a;
 	background-color: rgba(0, 0, 0, 0);
 }
 
@@ -18918,15 +18918,15 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-6 .elementor-element.elementor-element-a143 {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-6 .elementor-element.elementor-element-a144 .elementor-button {
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 16px;
-	fill: #552583;
-	color: #552583;
+	fill: #59437a;
+	color: #59437a;
 	background-color: rgba(0, 0, 0, 0);
 }
 
@@ -19063,11 +19063,11 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-8 .elementor-element.elementor-element-a151 .text-slide-position {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-8 .elementor-element.elementor-element-a151 .text-slider-header-quotes:before {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-bc-flex-widget .elementor-8 .elementor-element.elementor-element-201de9b.elementor-column .elementor-column-wrap {
@@ -19139,7 +19139,7 @@ button.swiper-pagination-bullet {
 
 .elementor-9 .elementor-element.elementor-element-a158:not(.elementor-motion-effects-element-type-background)>.elementor-column-wrap,
 .elementor-9 .elementor-element.elementor-element-a158>.elementor-column-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-	background-color: #fdb927;
+	background-color: #f3d2d8;
 }
 
 .elementor-9 .elementor-element.elementor-element-a158>.elementor-element-populated,
@@ -19186,7 +19186,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-9 .elementor-element.elementor-element-a162 {
-	color: #552583;
+	color: #59437a;
 	font-size: 16px;
 	font-weight: 400;
 	letter-spacing: 3px;
@@ -19201,7 +19201,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-9 .elementor-element.elementor-element-a163 .elementor-heading-title {
-	color: #552583;
+	color: #59437a;
 	font-size: 52px;
 	font-weight: 700;
 	letter-spacing: -1px;
@@ -19315,7 +19315,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-10 .elementor-element.elementor-element-a175 {
-	color: #552583;
+	color: #59437a;
 	font-size: 16px;
 	font-weight: 400;
 	letter-spacing: 3px;
@@ -19332,7 +19332,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-10 .elementor-element.elementor-element-a176 .elementor-heading-title {
-	color: #552583;
+	color: #59437a;
 	font-size: 52px;
 	font-weight: 700;
 	letter-spacing: -1px;
@@ -19394,7 +19394,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-10 .elementor-element.elementor-element-a180 .elementor-heading-title {
-	color: #fdb927;
+	color: #f3d2d8;
 	font-size: 90px;
 	font-weight: 700;
 	line-height: 109px;
@@ -19420,59 +19420,59 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-10 .elementor-element.elementor-element-a184 {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-10 .elementor-element.elementor-element-a185 {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-10 .elementor-element.elementor-element-a186 {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-10 .elementor-element.elementor-element-b5aed72 .wpcf7-form {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-10 .elementor-element.elementor-element-b5aed72 .wpcf7 input {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-10 .elementor-element.elementor-element-b5aed72 .wpcf7 textarea {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-10 .elementor-element.elementor-element-b5aed72 .wpcf7 input::placeholder {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-10 .elementor-element.elementor-element-b5aed72 .wpcf7 textarea::placeholder {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-10 .elementor-element.elementor-element-b5aed72 .wpcf7 input:ms-input-placeholder {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-10 .elementor-element.elementor-element-b5aed72 .wpcf7 textarea:ms-input-placeholder {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-10 .elementor-element.elementor-element-b5aed72 .wpcf7 input::-webkit-input-placeholder {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-10 .elementor-element.elementor-element-b5aed72 .wpcf7 textarea::-webkit-input-placeholder {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-10 .elementor-element.elementor-element-b5aed72 span.wpcf7-not-valid-tip {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-10 .elementor-element.elementor-element-b5aed72 div.wpcf7-response-output {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-10 .elementor-element.elementor-element-b5aed72 input {
@@ -19572,7 +19572,7 @@ button.swiper-pagination-bullet {
 
 .elementor-11 .elementor-element.elementor-element-a190:not(.elementor-motion-effects-element-type-background),
 .elementor-11 .elementor-element.elementor-element-a190>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-	background-color: #efa402;
+	background-color: #e5bfc6;
 }
 
 .elementor-11 .elementor-element.elementor-element-a190 {
@@ -19585,7 +19585,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-11 .elementor-element.elementor-element-a191 .elementor-element-populated a {
-	color: #552583;
+	color: #59437a;
 }
 
 .elementor-11 .elementor-element.elementor-element-a191 .elementor-element-populated a:hover {
@@ -19605,18 +19605,18 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-11 .elementor-element.elementor-element-9022282.elementor-view-stacked .elementor-icon {
-	background-color: #552583;
+	background-color: #59437a;
 }
 
 .elementor-11 .elementor-element.elementor-element-9022282.elementor-view-framed .elementor-icon,
 .elementor-11 .elementor-element.elementor-element-9022282.elementor-view-default .elementor-icon {
-	color: #552583;
-	border-color: #552583;
+	color: #59437a;
+	border-color: #59437a;
 }
 
 .elementor-11 .elementor-element.elementor-element-9022282.elementor-view-framed .elementor-icon,
 .elementor-11 .elementor-element.elementor-element-9022282.elementor-view-default .elementor-icon svg {
-	fill: #552583;
+	fill: #59437a;
 }
 
 .elementor-11 .elementor-element.elementor-element-9022282.elementor-view-stacked .elementor-icon:hover {
@@ -19649,18 +19649,18 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-11 .elementor-element.elementor-element-2a1bd57.elementor-view-stacked .elementor-icon {
-	background-color: #552583;
+	background-color: #59437a;
 }
 
 .elementor-11 .elementor-element.elementor-element-2a1bd57.elementor-view-framed .elementor-icon,
 .elementor-11 .elementor-element.elementor-element-2a1bd57.elementor-view-default .elementor-icon {
-	color: #552583;
-	border-color: #552583;
+	color: #59437a;
+	border-color: #59437a;
 }
 
 .elementor-11 .elementor-element.elementor-element-2a1bd57.elementor-view-framed .elementor-icon,
 .elementor-11 .elementor-element.elementor-element-2a1bd57.elementor-view-default .elementor-icon svg {
-	fill: #552583;
+	fill: #59437a;
 }
 
 .elementor-11 .elementor-element.elementor-element-2a1bd57.elementor-view-stacked .elementor-icon:hover {
@@ -19693,18 +19693,18 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-11 .elementor-element.elementor-element-a194.elementor-view-stacked .elementor-icon {
-	background-color: #552583;
+	background-color: #59437a;
 }
 
 .elementor-11 .elementor-element.elementor-element-a194.elementor-view-framed .elementor-icon,
 .elementor-11 .elementor-element.elementor-element-a194.elementor-view-default .elementor-icon {
-	color: #552583;
-	border-color: #552583;
+	color: #59437a;
+	border-color: #59437a;
 }
 
 .elementor-11 .elementor-element.elementor-element-a194.elementor-view-framed .elementor-icon,
 .elementor-11 .elementor-element.elementor-element-a194.elementor-view-default .elementor-icon svg {
-	fill: #552583;
+	fill: #59437a;
 }
 
 .elementor-11 .elementor-element.elementor-element-a194.elementor-view-stacked .elementor-icon:hover {
@@ -19737,18 +19737,18 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-11 .elementor-element.elementor-element-be7b927.elementor-view-stacked .elementor-icon {
-	background-color: #552583;
+	background-color: #59437a;
 }
 
 .elementor-11 .elementor-element.elementor-element-be7b927.elementor-view-framed .elementor-icon,
 .elementor-11 .elementor-element.elementor-element-be7b927.elementor-view-default .elementor-icon {
-	color: #552583;
-	border-color: #552583;
+	color: #59437a;
+	border-color: #59437a;
 }
 
 .elementor-11 .elementor-element.elementor-element-be7b927.elementor-view-framed .elementor-icon,
 .elementor-11 .elementor-element.elementor-element-be7b927.elementor-view-default .elementor-icon svg {
-	fill: #552583;
+	fill: #59437a;
 }
 
 .elementor-11 .elementor-element.elementor-element-be7b927.elementor-view-stacked .elementor-icon:hover {
@@ -19781,18 +19781,18 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-11 .elementor-element.elementor-element-a195.elementor-view-stacked .elementor-icon {
-	background-color: #552583;
+	background-color: #59437a;
 }
 
 .elementor-11 .elementor-element.elementor-element-a195.elementor-view-framed .elementor-icon,
 .elementor-11 .elementor-element.elementor-element-a195.elementor-view-default .elementor-icon {
-	color: #552583;
-	border-color: #552583;
+	color: #59437a;
+	border-color: #59437a;
 }
 
 .elementor-11 .elementor-element.elementor-element-a195.elementor-view-framed .elementor-icon,
 .elementor-11 .elementor-element.elementor-element-a195.elementor-view-default .elementor-icon svg {
-	fill: #552583;
+	fill: #59437a;
 }
 
 .elementor-11 .elementor-element.elementor-element-a195.elementor-view-stacked .elementor-icon:hover {
