@@ -19824,4 +19824,10 @@ button.swiper-pagination-bullet {
 	text-align: center;
 }
 
+@media (max-width:768px){
+
+.elementor-shape-bottom{
+  bottom:calc(1% - 125px)
+  }
+}
 
