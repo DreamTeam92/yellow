@@ -17737,10 +17737,7 @@ button.swiper-pagination-bullet {
 
 .elementor-4 .elementor-element.elementor-element-a71:not(.elementor-motion-effects-element-type-background),
 .elementor-4 .elementor-element.elementor-element-a71>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-	background-image: url("images/stats1366x400.jpg");
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
+        background: url('images/stats1366x400.jpg') no-repeat 80% center/cover;
 }
 
 .elementor-4 .elementor-element.elementor-element-a71 {
