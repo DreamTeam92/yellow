@@ -19857,11 +19857,3 @@ button.swiper-pagination-bullet {
 }
 
 
-@media (max-width:767px){
-  
-  .elem-4 .elem-element.elem-element-a71:not(.elem-motion-effects-element-type-background),
-.elem-4 .elem-element.elem-element-a71>.elem-motion-effects-container>.elem-motion-effects-layer {
-  background: url('images/stats768x244.jpg') no-repeat 70% center/cover;
-}
-
-}
