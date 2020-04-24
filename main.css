@@ -19864,13 +19864,7 @@ button.swiper-pagination-bullet {
   
   .elem-4 .elem-element.elem-element-a71:not(.elem-motion-effects-element-type-background),
 .elem-4 .elem-element.elem-element-a71>.elem-motion-effects-container>.elem-motion-effects-layer {
-	background-image: url("images/stats768x244.jpg");
-	background-position: 70%;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background: url('images/stats768x244.jpg') no-repeat 70% center/cover;
 }
 
 }
-
-
-
