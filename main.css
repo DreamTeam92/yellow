@@ -48,7 +48,7 @@ body .site-wrapper a,body .site-wrapper a:hover,.site-wrapper blockquote:before,
 }
 
 .elem-page-3 {
-  background-image: linear-gradient(to bottom, #f1e7e8, #f2e2e4, #f2dde0, #f3d7dc, #f3d2d8);
+  background-color: #f1e7e8!important;
   background-position: left top;
   background-repeat: no-repeat;
   background-size: auto;
