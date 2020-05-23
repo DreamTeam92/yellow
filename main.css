@@ -89,7 +89,7 @@ body .site-wrapper a,body .site-wrapper a:hover,.site-wrapper blockquote:before,
 }
 
 .elem-page-8 {
-  background-color: #f3d2d8!important;
+  background-image: linear-gradient(to bottom, #f1e7e8, #dcc4ca, #c4a2b2, #a9829e, #8a658d, #89648d, #89628d, #88618d, #a77a9c, #c396ad, #dcb3c1, #f3d2d8);
   background-position: left top;
   background-repeat: no-repeat;
   background-size: auto;
@@ -18680,7 +18680,7 @@ button.swiper-pagination-bullet {
 }
 
 .elem-8 .elem-element.elem-element-a151 .text-slider-header-quotes:before {
-  color: #59437a;
+  color: #ff1e5e;
 }
 
 .elem-bc-flex-widget .elem-8 .elem-element.elem-element-201de9b.elem-column .elem-column-wrap {
