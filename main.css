@@ -1583,7 +1583,7 @@ a.button:hover {
 }
 
 .close-icon {
-  background-image: url(images/close.png);
+  background-image: url(images/icons/closeLeftArrow.png);
   background-repeat: no-repeat;
   width: 70px;
   height: 70px;
@@ -1830,7 +1830,7 @@ div.pp_default .pp_loaderIcon {
 }
 
 div.pp_default .pp_close {
-  background-image: url(images/close.png);
+  background-image: url(images/icons/close.png);
   background-size: 30px 30px;
   margin-top: 5px;
   text-indent: -99999999px;
@@ -18680,7 +18680,7 @@ button.swiper-pagination-bullet {
 }
 
 .elem-8 .elem-element.elem-element-a151 .text-slider-header-quotes:before {
-  color: #ff1e5e;
+  color: #59437a;
 }
 
 .elem-bc-flex-widget .elem-8 .elem-element.elem-element-201de9b.elem-column .elem-column-wrap {
