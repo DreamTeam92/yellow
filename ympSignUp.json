@@ -217,7 +217,7 @@
         ], 
         "siteId": "xwkkez9w", 
         "sessionLength": 20, 
-        "serverUrl": 
+        "serverUrl": "https://dash.getsitecontrol.com/api/v1/events" 
     }, 
     "script": {
         "mjs": "signUpJavaTwo.js", 
