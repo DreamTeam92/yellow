@@ -37,23 +37,6 @@
                         {
                             "items": [
                                 {
-                                    "items": [
-                                        {
-                                            "operation": "^", 
-                                            "type": "geo", 
-                                            "name": "city", 
-                                            "value": "146920:177481:249440:259166:"
-                                        }
-                                    ], 
-                                    "operation": "or"
-                                }
-                            ], 
-                            "operation": "and", 
-                            "id": "TargetingGroupGeneral"
-                        }, 
-                        {
-                            "items": [
-                                {
                                     "operation": "=", 
                                     "type": "atonce", 
                                     "value": true
@@ -62,7 +45,7 @@
                                     "operation": ">=", 
                                     "type": "scrollPercent", 
                                     "name": "", 
-                                    "value": 85
+                                    "value": 75
                                 }, 
                                 {
                                     "operation": ">", 
