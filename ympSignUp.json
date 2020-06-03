@@ -36,11 +36,7 @@
                         }, 
                         {
                             "items": [
-                                {
-                                    "operation": "=", 
-                                    "type": "atonce", 
-                                    "value": true
-                                }, 
+                                 
                                 {
                                     "operation": ">=", 
                                     "type": "scrollPercent", 
@@ -52,13 +48,8 @@
                                     "type": "timeIdle", 
                                     "name": "", 
                                     "value": 30000
-                                }, 
-                                {
-                                    "operation": "=", 
-                                    "type": "exitAttempted", 
-                                    "name": "", 
-                                    "value": true
-                                }
+                                } 
+                               
                             ], 
                             "operation": "or", 
                             "id": "TargetingGroupStart"
