@@ -19631,3 +19631,114 @@ button.swiper-pagination-bullet {
 .credit {
   color:#59437a
 }
+
+.ymp-switcher-holder{
+    position:fixed;
+    right:-340px;
+    top:0;
+    width:340px;
+    background-color:#000;
+    z-index:99998;
+    height:100%;
+    -webkit-transition:all .5s;
+    transition:all .5s
+}
+.ymp-switcher-holder.on{
+    right:0
+}
+.ymp-switcher-holder img{
+    max-width:100%
+}
+.ymp-switcher-wrapper{
+    overflow-x:hidden;
+    overflow-y:auto;
+    height:100%;
+    position:relative;
+    margin-top:-60px
+}
+.ymp-buy-button a{
+    font-size:16px;
+    font-weight:700;
+    line-height:27px;
+    letter-spacing:0;
+    border:2px solid #fff!important;
+    border-radius:5px;
+    padding:17px 50px;
+    display:table;
+    margin:100px auto 50px;
+    transition:.3s;
+    color:#fff
+}
+.ymp-buy-button a:hover{
+    background-color:#fff;
+    color:#000
+}
+.ymp-switcher-holder ul{
+    list-style:none;
+    padding:0
+}
+.ymp-switcher-toggle{
+    background-color:#000;
+    display:inline-block;
+    transform:translate(-50px,200px);
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    border-radius:5px 0 0 5px;
+    background-image:url(images/icons/liveStream60x60.png);
+    background-repeat:no-repeat;
+    background-size:32px 32px;
+    background-position:center center
+}
+.live-switcher{
+    background-image:url(images/liveStreamClasses.png);
+    background-repeat:no-repeat;
+    width:300px;
+    height:180px;
+    background-position:0 0;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:30px;
+    position:relative
+}
+.live-switcher:before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,.8);
+    opacity:0;
+    transition:.3s
+}
+.live-switcher:hover span,.live-switcher:hover:before{
+    opacity:1
+}
+.live-switcher span{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-weight:700;
+    opacity:0;
+    transition:.3s;
+    color:#fff
+}
+.live-switcher-5 .live-switcher{
+    background-position:-1200px 0
+}
+.live-switcher-4 .live-switcher{
+    background-position:-900px 0
+}
+.live-switcher-3 .live-switcher{
+    background-position:-600px 0
+}
+.live-switcher-2 .live-switcher{
+    background-position:-300px 0
+}
+li.live-switcher-1{
+    margin-bottom:30px
+}
+
+
