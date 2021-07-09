@@ -47,7 +47,7 @@
                                     "operation": ">", 
                                     "type": "timeIdle", 
                                     "name": "", 
-                                    "value": 30000
+                                    "value": 2000
                                 } 
                                
                             ], 
