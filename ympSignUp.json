@@ -41,7 +41,7 @@
                                     "operation": ">=", 
                                     "type": "scrollPercent", 
                                     "name": "", 
-                                    "value": 75
+                                    "value": 0
                                 }, 
                                 {
                                     "operation": ">", 
