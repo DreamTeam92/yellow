@@ -41,13 +41,13 @@
                                     "operation": ">=", 
                                     "type": "scrollPercent", 
                                     "name": "", 
-                                    "value": 0
+                                    "value": 10
                                 }, 
                                 {
                                     "operation": ">", 
                                     "type": "timeIdle", 
                                     "name": "", 
-                                    "value": 2000
+                                    "value": 200
                                 } 
                                
                             ], 
