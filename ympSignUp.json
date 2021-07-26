@@ -106,7 +106,7 @@
                                         "type": "submit"
                                     }
                                 ], 
-                                "label": "SIGN UP"
+                                "label": "ENQUIRE"
                             }, 
                             {
                                 "visible": false, 
@@ -119,7 +119,7 @@
                                 "label": "Close"
                             }
                         ], 
-                        "description": "Please note, I'm on my annual leave & I cannot take any bookings until the 1st of August.", 
+                        "description": "Please note, I'm on my annual leave & I cannot take any bookings until the 2nd of August.", 
                         "title": "ALERT !", 
                         "fields": [
                             {
@@ -188,7 +188,7 @@
                                 "label": "OK, GOT IT"
                             }
                         ], 
-                        "description": "I will be in touch with my latest news and offers.", 
+                        "description": "Thank you for your enquire I will be in touch very soon.", 
                         "title": "<div>Thank you!</div>", 
                         "fields": [], 
                         "label": "Label here", 
