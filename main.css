@@ -19741,4 +19741,16 @@ li.live-switcher-1{
     margin-bottom:30px
 }
 
+.buy-now-button {
+    font-weight: 700;
+    letter-spacing: 0;
+    fill: #59437a;
+    color: #59437a;
+    background-color: rgba(204,0,51,0);
+    border-style: solid;
+    border-width: 3px;
+    border-color: #59437a;
+    border-radius: 10px 10px 10px 10px;
+    padding: 26px 40px;
+}
 
