@@ -19787,7 +19787,7 @@ body a {
 
 body a:hover {
     text-decoration: none;
-    color: #ff1e5c;
+    color: #ff1e5c!important;
     transition: color .2s ease;
 }
 
