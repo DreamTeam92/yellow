@@ -19769,9 +19769,16 @@ li.live-switcher-1{
     -o-transition: all .3s;
     transition: all .3s;
 }
-
+/*
 .elem-button:hover {
     color: #ff1e5c;
     background-color: rgba(204,0,51,0);
     border-color: #ff1e5c;
+}
+*/
+
+body a:hover {
+    text-decoration: none;
+    color: #ff1e5c;
+    transition: color .2s ease;
 }
