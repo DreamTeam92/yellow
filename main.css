@@ -19740,7 +19740,7 @@ button.swiper-pagination-bullet {
 li.live-switcher-1{
     margin-bottom:30px
 }
-
+/*
 .buy-now-button {
     font-weight: 700;
     letter-spacing: 0;
@@ -19769,13 +19769,13 @@ li.live-switcher-1{
     -o-transition: all .3s;
     transition: all .3s;
 }
-/*
+
 .elem-button:hover {
     color: #ff1e5c;
     background-color: rgba(204,0,51,0);
     border-color: #ff1e5c;
 }
-*/
+
 
 
 body a {
@@ -19790,4 +19790,4 @@ a:hover {
     color: #ff1e5c!important;
     transition: color .2s ease;
 }
-
+*/
