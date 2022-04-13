@@ -19741,6 +19741,7 @@ li.live-switcher-1{
     margin-bottom:30px
 }
 
+
 .buy-now-button {
     font-weight: 700;
     letter-spacing: 0;
@@ -19752,8 +19753,9 @@ li.live-switcher-1{
     border-color: #59437a;
     border-radius: 10px 10px 10px 10px;
     padding: 26px 40px;
+    margin-top: 30px;
 }
-
+/*
 .elem-button-buy {
     display: inline-block;
     line-height: 1;
@@ -19762,21 +19764,22 @@ li.live-switcher-1{
     padding: 12px 24px;
     -webkit-border-radius: 3px;
     border-radius: 3px;
-    color: #fff;
+    color: #59437a;
     fill: #fff;
     text-align: center;
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
 }
-
+*/
+/*
 .elem-button:hover {
     color: #ff1e5c;
     background-color: rgba(204,0,51,0);
     border-color: #ff1e5c;
 }
 
-
+*/
 
 body a {
   text-decoration: none;
@@ -19784,6 +19787,17 @@ body a {
   transition: color .2s ease;
 }
 
+
+
+span.elem-button-text-buy {
+    color: #59437a;
+} 
+
+.elem-button-wrapper:hover {
+   color: #ff1e5c;
+    background-color: rgba(204,0,51,0);
+    border-color: #ff1e5c;
+}
 
 a:hover {
     text-decoration: none;
