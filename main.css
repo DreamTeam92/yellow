@@ -19754,3 +19754,18 @@ li.live-switcher-1{
     padding: 26px 40px;
 }
 
+.elem-button-buy {
+    display: inline-block;
+    line-height: 1;
+    background-color: none;
+    font-size: 15px;
+    padding: 12px 24px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff;
+    fill: #fff;
+    text-align: center;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
