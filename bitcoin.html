@@ -15,7 +15,45 @@
       <meta name="msapplication-TileImage" content="images/icons/mrFavicon270x270.png" />
       <script async src="https://www.googletagmanager.com/gtag/js?id=#"></script>
       <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', '#', { 'anonymize_ip': true });</script>
+      <style>
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
 
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: blue;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
   </head>
    <body class="post-template-default single single-post postid-80 single-format-standard chrome windows elementor-default">
       <div class="site-wrapper">
@@ -61,6 +99,12 @@
                         <p>&nbsp;</p>
                      </div>
                   </div>
+                  
+                  <input type="text" value="3NoWYxXAnd8g4C2dtgVKPpsZwHCv2xgfNL" id="myInput">
+                  <div class="tooltip">
+                     <button onclick="myFunction()" onmouseout="outFunc()"><span class="tooltiptext" id="myTooltip"></span><img src="images/icons/copy30x30.png" width="30" height="30"></button>
+                  </div>
+                  
                   <div class="clear"></div>
                </div>
             </article>
@@ -179,5 +223,21 @@
    <script type='text/javascript'> var ajax_var = { }; </script>
    <script type='text/javascript'> var elemFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "downloadImage": "Download image" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "version": "2.9.4", "urls": { "assets": "" }, "settings": { "page": [], "general": { "elem_global_image_lightbox": "yes", "elem_lightbox_enable_counter": "yes", "elem_lightbox_enable_fullscreen": "yes", "elem_lightbox_enable_zoom": "yes", "elem_lightbox_enable_share": "yes", "elem_lightbox_title_src": "title", "elem_lightbox_description_src": "description" }, "editorPreferences": [] }, }; </script>
    <script defer src="ympJava.js"></script>
+   <script>
+function myFunction() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999);
+  navigator.clipboard.writeText(copyText.value);
+  
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copied";
+}
+
+function outFunc() {
+  var tooltip = document.getElementById("myTooltip");
+  tooltip.innerHTML = "Copy";
+}
+</script>
    </body>
 </html>
