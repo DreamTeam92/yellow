@@ -19805,3 +19805,7 @@ a:hover {
     transition: color .2s ease;
 }
 
+.black {
+  color: #000;
+  text-align: center
+}
