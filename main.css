@@ -19809,11 +19809,3 @@ a:hover {
   color: #000;
   text-align: center
 }
-
-.user::after {
-  content: "hello";
-}
-
-.domain::before {
-  content: "@yourmassage.pro";
-}
