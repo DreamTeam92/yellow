@@ -19556,6 +19556,28 @@ button.swiper-pagination-bullet {
     justify-content: space-evenly;
 }
 
+.elem-14e .elem-element.elem-element-a209 .elem-icon-wrapper {
+    text-align: center;
+}
+
+.elem-14e .elem-element.elem-element-a209.elem-view-default .elem-icon,.elem-14e .elem-element.elem-element-a210.elem-view-framed .elem-icon {
+    color: #59437a;
+    border-color: #59437a;
+}
+
+.elem-14e .elem-element.elem-element-a209 .elem-icon {
+    font-size: 28px;
+}
+
+.elem-14e .elem-element.elem-element-a209 .elem-icon i,.elem-14e .elem-element.elem-element-a210 .elem-icon svg {
+    transform: rotate(0);
+}
+
+.elem-14e .elem-element.elem-element-a209 {
+    width: auto;
+    max-width: auto;
+}
+
 .elem-14e .elem-element.elem-element-a210 .elem-icon-wrapper {
     text-align: center;
 }
