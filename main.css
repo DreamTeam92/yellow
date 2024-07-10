@@ -19831,3 +19831,8 @@ a:hover {
   color: #000;
   text-align: center
 }
+
+.fa.fa-twitter::before {
+    content: "𝕏";
+    font-size: 1.2em;
+}
