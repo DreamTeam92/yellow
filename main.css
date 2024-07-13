@@ -33,7 +33,7 @@ body .site-wrapper a,body .site-wrapper a:hover,.site-wrapper blockquote:before,
 }
 
 .elem-page-1 {
-  background-image: url(images/mainPage1366x836.jpg);
+  background-image: url(images/mainPage1366x836.webp);
   background-color: #f1e7e8!important;
   background-position: center center;
   background-repeat: no-repeat;
@@ -17291,7 +17291,7 @@ button.swiper-pagination-bullet {
 }
 
 .elem-4 .elem-element.elem-element-a71:not(.elem-motion-effects-element-type-background),.elem-4 .elem-element.elem-element-a71>.elem-motion-effects-container>.elem-motion-effects-layer {
-  background: url(images/stats1366x400.jpg) no-repeat 80% center/cover;
+  background: url(images/stats1366x400.webp) no-repeat 80% center/cover;
 }
 
 .elem-4 .elem-element.elem-element-a71 {
