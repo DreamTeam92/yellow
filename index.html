@@ -1987,5 +1987,86 @@
         }
         )();
     </script>
+
+    <!-- Floating Language Toggle Button -->
+    <button id="language-toggle">EspaÃ±ol</button>
+
+
+<style>
+
+    /* Floating button styling */
+
+    #language-toggle {
+
+        position: fixed;
+
+        bottom: 20px;
+
+        right: 20px;
+
+        background-color: #007bff;
+
+        color: white;
+
+        border: none;
+
+        padding: 12px 20px;
+
+        font-size: 16px;
+
+        border-radius: 5px;
+
+        cursor: pointer;
+
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+
+        z-index: 1000;
+
+    }
+
+
+    #language-toggle:hover {
+
+        background-color: #0056b3;
+
+    }
+
+</style>
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const toggleButton = document.getElementById("language-toggle");
+
+
+    // Detect current language based on URL
+
+    let currentLanguage = window.location.pathname.startsWith("/es") ? "es" : "en";
+
+
+    // Set button text based on the current language
+
+    toggleButton.textContent = currentLanguage === "en" ? "EspaÃ±ol" : "English";
+
+
+    toggleButton.addEventListener("click", function () {
+
+        if (currentLanguage === "en") {
+
+            window.location.href = "https://yourmassage.pro/es/";
+
+        } else {
+
+            window.location.href = "https://yourmassage.pro/";
+
+        }
+
+    });
+
+});
+
+</script>
 </body>
 </html>
