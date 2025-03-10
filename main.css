@@ -16034,6 +16034,10 @@ button.swiper-pagination-bullet {
   .elem-5 .elem-element.elem-element-a96 {
     margin-top: 0;
     margin-bottom: 0;
+    max-width: 50vw;
+    min-width: 330px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .elem-6 .elem-element.elem-element-a120 .elem-spacer-inner {
@@ -17448,4 +17452,13 @@ path.x-twitter {
 }
 .hover-red:hover path {
   fill: #ff1e5c;
+}
+
+@media (max-width: 767px) {
+  #portfolio-wrapper {
+    max-width: 50vw;
+    min-width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
