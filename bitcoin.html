@@ -95,8 +95,22 @@
                         <p><img src="images/btc419x419.jpg" class="payment-img"></p>
                         <p>BTC Wallet Address (BTC)</p>
                         <p>&nbsp;</p>
-                        <input style="width:93%;text-align:center;font-size:1rem;border:none;line-height:27px;font-family:poppins,sans-serif" type="text" value="3NoWYxXAnd8g4C2dtgVKPpsZwHCv2xgfNL" id="myInput"><div class="tooltip">
-                        <button style="border:none;background:transparent" onclick="myFunction()" onmouseout="outFunc()"><span class="tooltiptext" id="myTooltip">Copy</span><img src="images/icons/copy30x30.png" width="30" height="30"></button>
+                        <!-- Bitcoin Address Input (readonly to prevent editing) -->
+                        <input type="text" value="3NoWYxXAnd8g4C2dtgVKPpsZwHCv2xgfNL" id="btcAddress" readonly style="width: 300px;">
+                        <!-- Copy Button -->
+                        <button onclick="copyBTC()">Copy</button>
+                        <!-- JavaScript Function -->
+<script>
+  function copyBTC() {
+    var copyText = document.getElementById("btcAddress");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); // For mobile compatibility
+    document.execCommand("copy");
+    alert("Bitcoin address copied: " + copyText.value);
+  }
+</script> 
+                   <!---<input style="width:93%;text-align:center;font-size:1rem;border:none;line-height:27px;font-family:poppins,sans-serif" type="text" value="3NoWYxXAnd8g4C2dtgVKPpsZwHCv2xgfNL" id="myInput"><div class="tooltip">
+                        <button style="border:none;background:transparent" onclick="myFunction()" onmouseout="outFunc()"><span class="tooltiptext" id="myTooltip">Copy</span><img src="images/icons/copy30x30.png" width="30" height="30"></button>--->
                         <p>&nbsp;</p>
                       </div>
                     </div>                  
