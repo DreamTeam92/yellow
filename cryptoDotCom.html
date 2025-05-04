@@ -55,10 +55,23 @@
                         </div>
                      </div>
                      <div class="entry-content">
-                        <p><img src="images/cryptoDotCom419x419.jpg" width="419" height="419"></p>
+                        <p><img src="images/cryptoDotCom419x419.jpg" class"payment-img"></p>
                         <p>CRO Wallet Address (Cronos)</p>
                         <p>&nbsp;</p>
-                        <p>0x6c372DB16d4b180236c136C03a2631074d72783c</p>
+                        <!-- CRO Address Input (readonly to prevent editing) -->
+                        <input type="text" value="0x6c372DB16d4b180236c136C03a2631074d72783c" id="croAddress" readonly style="width: 300px;">
+                        <!-- Copy Button -->
+                        <button onclick="copyCRO()">Copy</button>
+<!-- JavaScript Function -->
+<script>
+  function copyCRO() {
+    var copyText = document.getElementById("croAddress");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); // For mobile compatibility
+    document.execCommand("copy");
+    alert("Cronos address copied: " + copyText.value);
+  }
+</script>
                         <p>&nbsp;</p>
                      </div>
                   </div>
