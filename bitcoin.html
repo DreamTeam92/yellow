@@ -96,21 +96,9 @@
                         <p>BTC Wallet Address (BTC)</p>
                         <p>&nbsp;</p>
                         <!-- Bitcoin Address Input (readonly to prevent editing) -->
-                        <input type="text" value="3NoWYxXAnd8g4C2dtgVKPpsZwHCv2xgfNL" id="btcAddress" readonly style="width: 300px;">
+                        <input type="text" value="3NoWYxXAnd8g4C2dtgVKPpsZwHCv2xgfNL" id="btcAddress" readonlyclass="btc-input">
                         <!-- Copy Button -->
-                        <button onclick="copyBTC()">Copy</button>
-                        <!-- JavaScript Function -->
-<script>
-  function copyBTC() {
-    var copyText = document.getElementById("btcAddress");
-    copyText.select();
-    copyText.setSelectionRange(0, 99999); // For mobile compatibility
-    document.execCommand("copy");
-    alert("Bitcoin address copied: " + copyText.value);
-  }
-</script> 
-                   <!---<input style="width:93%;text-align:center;font-size:1rem;border:none;line-height:27px;font-family:poppins,sans-serif" type="text" value="3NoWYxXAnd8g4C2dtgVKPpsZwHCv2xgfNL" id="myInput"><div class="tooltip">
-                        <button style="border:none;background:transparent" onclick="myFunction()" onmouseout="outFunc()"><span class="tooltiptext" id="myTooltip">Copy</span><img src="images/icons/copy30x30.png" width="30" height="30"></button>--->
+                        <button onclick="copyBTC()" class="copy-btn">Copy</button>
                         <p>&nbsp;</p>
                       </div>
                     </div>                  
@@ -233,20 +221,13 @@
    <script type='text/javascript'> var elemFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "downloadImage": "Download image" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "version": "2.9.4", "urls": { "assets": "" }, "settings": { "page": [], "general": { "elem_global_image_lightbox": "yes", "elem_lightbox_enable_counter": "yes", "elem_lightbox_enable_fullscreen": "yes", "elem_lightbox_enable_zoom": "yes", "elem_lightbox_enable_share": "yes", "elem_lightbox_title_src": "title", "elem_lightbox_description_src": "description" }, "editorPreferences": [] }, }; </script>
    <script defer src="ympJava.js"></script>
    <script>
-function myFunction() {
-  var copyText = document.getElementById("myInput");
-  copyText.select();
-  copyText.setSelectionRange(0, 99999);
-  navigator.clipboard.writeText(copyText.value);
-  
-  var tooltip = document.getElementById("myTooltip");
-  tooltip.innerHTML = "Copied";
-}
-
-function outFunc() {
-  var tooltip = document.getElementById("myTooltip");
-  tooltip.innerHTML = "Copy";
-}
-</script>
+  function copyBTC() {
+    var copyText = document.getElementById("btcAddress");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); // For mobile devices
+    document.execCommand("copy");
+    alert("Bitcoin address copied: " + copyText.value);
+  }
+   </script>
    </body>
 </html>
