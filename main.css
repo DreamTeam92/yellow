@@ -17493,13 +17493,14 @@ path.x-twitter {
   color: white;
   border: none;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 12px;
   cursor: pointer;
-  border-radius: 4px; /* Adjust border radius as needed */
+  border-radius: 10px; /* Adjust border radius as needed */
 }
 
 /* Optional: Add hover effect for the Copy button */
 .copy-btn:hover {
   background-color: #ff2969; /* Adjust hover color as needed */
+  transition: 0.3s;
 }
 
