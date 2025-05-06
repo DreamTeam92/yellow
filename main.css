@@ -17473,7 +17473,7 @@ path.x-twitter {
   height: 150px;
   object-fit: cover;
   display: block;
-  margin: 0 auto 100px auto;
+  margin: 0 auto 10px auto;
 }
 
 /* Style for the Bitcoin address input field */
