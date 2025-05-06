@@ -17484,12 +17484,12 @@ path.x-twitter {
   background-color: transparent;
   font-size: 16px;
   color: #000; /* Adjust text color as needed */
-  width: 300px; /* Adjust width as needed */
+  width: 350px; /* Adjust width as needed */
 }
 
 /* Style for the Copy button */
 .copy-btn {
-  background-color: #4CAF50; /* Match this to your site's button color */
+  background-color: #5b427a; /* Match this to your site's button color */
   color: white;
   border: none;
   padding: 10px 20px;
@@ -17500,6 +17500,6 @@ path.x-twitter {
 
 /* Optional: Add hover effect for the Copy button */
 .copy-btn:hover {
-  background-color: #45a049; /* Adjust hover color as needed */
+  background-color: #ff2969; /* Adjust hover color as needed */
 }
 
