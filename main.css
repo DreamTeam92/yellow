@@ -17505,7 +17505,7 @@ path.x-twitter {
 }
 
 
-  /* Floating button styling */
+  /* Floating button styling 
 
 #language-toggle {
   position: fixed;
@@ -17525,9 +17525,9 @@ path.x-twitter {
 #language-toggle:hover {
   background-color: #0056b3;
 }
+*/
 
-
-.language-toggle button {
+#langBtn {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -17541,12 +17541,11 @@ path.x-twitter {
   justify-content: center;
 }
 
-.language-toggle button img {
+#langFlag {
   width: 28px;
   height: 28px;
   object-fit: cover;
   border-radius: 50%;
 }
-
 
 
