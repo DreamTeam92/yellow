@@ -17514,10 +17514,8 @@ path.x-twitter {
   bottom: 100px;
   right: 20px;
   background-color: none /*#007bff*/;
-  color: white;
   border: none;
-  padding: 12px 20px;
-  font-size: 16px;
+  padding: 0;
   border-radius: 50%;
   cursor: pointer;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
