@@ -17545,7 +17545,7 @@ path.x-twitter {
   height: 52px;
   border-radius: 50%;
   border: none;
-  background-color: #007bff;
+  background-color: none;
   cursor: pointer;
   padding: 0;
   display: flex;
