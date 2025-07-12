@@ -299,39 +299,35 @@
     </script>
     <script defer src="ympJava.js"></script>
      <!-- Floating Language Toggle Button -->
-    <button id="language-toggle">Español</button>
+    <button id="language-toggle">
+      <img id="lang-flag" src="/images/flags/uk.png" alt="Language Flag">
+    </button>
 
 <script>
 
 document.addEventListener("DOMContentLoaded", function () {
-
     const toggleButton = document.getElementById("language-toggle");
-
+    const flagImage = document.getElementById("lang-flag");
 
     // Detect current language based on URL
-
     let currentLanguage = window.location.pathname.startsWith("/es") ? "es" : "en";
 
-
-    // Set button text based on the current language
-
-    toggleButton.textContent = currentLanguage === "en" ? "Español" : "English";
-
-
-    toggleButton.addEventListener("click", function () {
-
+    // Set flag image based on current language
+    if (currentLanguage === "en") {
+        flagImage.src = "/images/flags/spain.png";  // Use your actual image path
+        flagImage.alt = "Español";
+    } else {
+        flagImage.src = "/images/flags/uk.png";     // Use your actual image path
+        flagImage.alt = "English";
+      
+    // Change language on click
+    toggleButton.addEventListener("click", function () {      
         if (currentLanguage === "en") {
-
             window.location.href = "https://yourmassage.pro/es/lymphatic-drainage-massage.html";
-
         } else {
-
             window.location.href = "https://yourmassage.pro/lymphatic-drainage-massage.html";
-
         }
-
     });
-
 });
 
 </script>
