@@ -17517,7 +17517,7 @@ path.x-twitter {
 }
 
 
-  /* Floating button styling*/
+  /* Floating button styling
 
 #language-toggle {
   position: fixed;
@@ -17547,27 +17547,31 @@ path.x-twitter {
 #language-toggle:hover {
   background-color: #0056b3;
 }
-/*
+*/
 
-#langBtn {
-  width: 50px;
-  height: 50px;
+#language-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 52px;
+  height: 52px;
   border-radius: 50%;
   border: none;
   background-color: #007bff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  z-index: 9999;
 }
 
-#langFlag {
+#language-toggle img {
   width: 28px;
   height: 28px;
   object-fit: cover;
   border-radius: 50%;
 }
-*/
+
 
