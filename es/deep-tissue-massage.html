@@ -45,12 +45,8 @@
           <div class="menu-holder">
             <nav id="header-main-menu" class="menu-menu-1-container">
               <ul id="menu-menu-1" class="main-menu sm sm-clean">
-                <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                  <a href="/es.html">Hogar</a>
-                </li>
-                <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                  <a href="#contact">Contacto</a>
-                </li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/es.html">Hogar</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="#contact">Contacto</a></li>
               </ul>
             </nav>
           </div>
@@ -302,7 +298,7 @@
       };
     </script>
     <script defer src="ympJava.js"></script>
-    <!--- Floating Language Toggle Button --->
+    <!--- Floating Language Toggle Button
     <button id="language-toggle">Español</button>
     <script>
       document.addEventListener("DOMContentLoaded", function() {
@@ -319,6 +315,23 @@
           }
         });
       });
+    </script>--->
+    <button id="langBtn" onclick="toggleLanguage()">
+      <img id="langFlag" src="/images/flags/uk.png" alt="English">
+    </button>
+    <script>
+    function toggleLanguage() {
+  const flag = document.getElementById('langFlag');
+  if (flag.alt === "English") {
+    flag.src = "/images/flags/spain.png";
+    flag.alt = "Español";
+    // switch to Spanish page or call your existing logic
+  } else {
+    flag.src = "/images/flags/uk.png";
+    flag.alt = "English";
+    // switch to English page or call your existing logic
+  }
+}
     </script>
   </body>
 </html>
