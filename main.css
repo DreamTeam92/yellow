@@ -1,17 +1,4 @@
-// Set flag image based on current language
-
-    if (currentLanguage === "en") {
-
-        flagImage.src = "/images/flags/spain.png";  // Use your actual image path
-
-        flagImage.alt = "Español";
-
-    } else {
-
-        flagImage.src = "/images/flags/uk.png";     // Use your actual image path
-
-        flagImage.alt = "English";body {
-  background-color: #f1e7e8 !important;
+background-color: #f1e7e8 !important;
 }
 body .site-wrapper .sm-clean a:hover,
 body .site-wrapper .main-menu.sm-clean .sub-menu li a:hover,
