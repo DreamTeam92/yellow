@@ -304,7 +304,26 @@
       <img id="lang-flag" src="" alt="Language Flag">
     </button>
 
-<script>
+
+    <!---<button id="langBtn" onclick="toggleLanguage()">
+      <img id="langFlag" src="/images/flags/uk.png" alt="English">
+    </button>
+    <script>
+    function toggleLanguage() {
+  const flag = document.getElementById('langFlag');
+  if (flag.alt === "English") {
+    flag.src = "/images/flags/spain.png";
+    flag.alt = "Español";
+    // switch to Spanish page or call your existing logic
+  } else {
+    flag.src = "/images/flags/uk.png";
+    flag.alt = "English";
+    // switch to English page or call your existing logic
+  }
+}
+    </script>--->
+  </body>
+  <script>
 
 document.addEventListener("DOMContentLoaded", function () {
     const toggleButton = document.getElementById("language-toggle");
@@ -332,22 +351,4 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 </script>
-    <!---<button id="langBtn" onclick="toggleLanguage()">
-      <img id="langFlag" src="/images/flags/uk.png" alt="English">
-    </button>
-    <script>
-    function toggleLanguage() {
-  const flag = document.getElementById('langFlag');
-  if (flag.alt === "English") {
-    flag.src = "/images/flags/spain.png";
-    flag.alt = "Español";
-    // switch to Spanish page or call your existing logic
-  } else {
-    flag.src = "/images/flags/uk.png";
-    flag.alt = "English";
-    // switch to English page or call your existing logic
-  }
-}
-    </script>--->
-  </body>
 </html>
