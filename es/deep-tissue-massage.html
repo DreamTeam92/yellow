@@ -300,30 +300,45 @@
     <script defer src="ympJava.js"></script>
     
      <!-- Floating Language Toggle Button -->
-    <button id="language-toggle">
-      <img id="lang-flag" src="" alt="Language Flag">
-    </button>
+  <button id="language-toggle">
+    <img id="lang-flag" src="" alt="Language Flag" />
+  </button>
 
-
-    <!---<button id="langBtn" onclick="toggleLanguage()">
-      <img id="langFlag" src="/images/flags/uk.png" alt="English">
-    </button>
-    <script>
-    function toggleLanguage() {
-  const flag = document.getElementById('langFlag');
-  if (flag.alt === "English") {
-    flag.src = "/images/flags/spain.png";
-    flag.alt = "Español";
-    // switch to Spanish page or call your existing logic
-  } else {
-    flag.src = "/images/flags/uk.png";
-    flag.alt = "English";
-    // switch to English page or call your existing logic
-  }
-}
-    </script>--->
-  </body>
   <script>
+document.addEventListener("DOMContentLoaded", function () {
+  const toggleButton = document.getElementById("language-toggle");
+  const flagImage = document.getElementById("lang-flag");
+
+  if (!toggleButton || !flagImage) {
+    console.error("Language toggle elements not found.");
+    return;
+  }
+
+  // Detect language from URL
+  let currentLanguage = window.location.pathname.startsWith("/es") ? "es" : "en";
+
+  // Set correct flag
+  if (currentLanguage === "en") {
+    flagImage.src = "/images/flags/spain.png"; // or use https://flagcdn.com/w40/es.png
+    flagImage.alt = "Español";
+  } else {
+    flagImage.src = "/images/flags/uk.png"; // or https://flagcdn.com/w40/gb.png
+    flagImage.alt = "English";
+  }
+
+  // Handle click
+  toggleButton.addEventListener("click", function () {
+    if (currentLanguage === "en") {
+      window.location.href = "https://yourmassage.pro/es/deep-tissue-massage.html";
+    } else {
+      window.location.href = "https://yourmassage.pro/deep-tissue-massage.html";
+    }
+  });
+});
+</script>
+  
+  </body>
+ <!--- <script>
 
 document.addEventListener("DOMContentLoaded", function () {
     const toggleButton = document.getElementById("language-toggle");
@@ -350,5 +365,5 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-</script>
+</script>--->
 </html>
