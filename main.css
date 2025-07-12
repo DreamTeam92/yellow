@@ -1,4 +1,16 @@
-body {
+// Set flag image based on current language
+
+    if (currentLanguage === "en") {
+
+        flagImage.src = "/images/flags/spain.png";  // Use your actual image path
+
+        flagImage.alt = "Español";
+
+    } else {
+
+        flagImage.src = "/images/flags/uk.png";     // Use your actual image path
+
+        flagImage.alt = "English";body {
   background-color: #f1e7e8 !important;
 }
 body .site-wrapper .sm-clean a:hover,
@@ -17513,13 +17525,23 @@ path.x-twitter {
   height: 50px;
   bottom: 100px;
   right: 20px;
-  background-color: none /*#007bff*/;
-  border: none;
-  padding: 0;
   border-radius: 50%;
+  border: none;
+  background-color: #007bff;
   cursor: pointer;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-  z-index: 1000;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  z-index: 9999;
+}
+
+#language-toggle img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 #language-toggle:hover {
