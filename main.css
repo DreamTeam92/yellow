@@ -17519,11 +17519,34 @@ path.x-twitter {
   border-radius: 5px;
   cursor: pointer;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-  z-index: 1000;
+  z-index: 9999;
 }
-
 
 #language-toggle:hover {
   background-color: #0056b3;
 }
+
+
+.language-toggle button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: #007bff; /* your blue*/
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.language-toggle button img {
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
 
