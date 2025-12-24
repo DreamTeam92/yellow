@@ -126,59 +126,6 @@
                     },
                     "name": "page-1"
                 }, 
-                {
-                    "type": "form", 
-                    "style": {
-                        "media": {
-                            "mobile": {
-                                "maxWidth": "414px", 
-                                "padding": {
-                                    "top": "16px", 
-                                    "right": "16px", 
-                                    "bottom": "16px", 
-                                    "left": "16px"
-                                }, 
-                                "width": "95%", 
-                                "background": [], 
-                                "images": [], 
-                                "overflow": "hidden"
-                            }, 
-                            "desktop": {
-                                "maxWidth": "none", 
-                                "padding": {
-                                    "top": "20px", 
-                                    "right": "20px", 
-                                    "bottom": "20px", 
-                                    "left": "20px"
-                                }, 
-                                "width": "576px", 
-                                "background": [], 
-                                "images": [], 
-                                "overflow": "hidden"
-                            }
-                        }
-                    }, 
-                    "data": {
-                        "buttons": [
-                            {
-                                "visible": true, 
-                                "type": "primary", 
-                                "actions": [
-                                    {
-                                        "type": "close"
-                                    }
-                                ], 
-                                "label": "OK, GOT IT"
-                            }
-                        ], 
-                        "description": "Thank you for your enquire I will be in touch very soon.", 
-                        "title": "<div>Thank you!</div>", 
-                        "fields": [], 
-                        "label": "Label here", 
-                        "note": ""
-                    }, 
-                    "name": "page-2"
-                }
             ]
         }
     ], 
