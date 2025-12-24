@@ -1,4 +1,40 @@
-<!DOCTYPE html>
+  <!-- Floating Language Toggle Button -->
+  <button id="language-toggle">
+    <img id="lang-flag" src="" alt="Language Flag" />
+  </button>
+
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+  const toggleButton = document.getElementById("language-toggle");
+  const flagImage = document.getElementById("lang-flag");
+
+  if (!toggleButton || !flagImage) {
+    console.error("Language toggle elements not found.");
+    return;
+  }
+
+  // Detect language from URL
+  let currentLanguage = window.location.pathname.startsWith("/es") ? "es" : "en";
+
+  // Set correct flag
+  if (currentLanguage === "en") {
+    flagImage.src = "/images/flags/spain.png"; // or use https://flagcdn.com/w40/es.png
+    flagImage.alt = "Español";
+  } else {
+    flagImage.src = "/images/flags/uk.png"; // or https://flagcdn.com/w40/gb.png
+    flagImage.alt = "English";
+  }
+
+  // Handle click
+  toggleButton.addEventListener("click", function () {
+    if (currentLanguage === "en") {
+      window.location.href = "https://yourmassage.pro/es.html";
+    } else {
+      window.location.href = "https://yourmassage.pro/index.html";
+    }
+  });
+});
+</script><!DOCTYPE html>
 <html lang="en-GB">
 <head>
     <meta charset="UTF-8" />
@@ -1959,7 +1995,7 @@
         var elemFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "downloadImage": "Download image" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "version": "2.9.4", "urls": { "assets": "" }, "settings": { "page": [], "general": { "elem_global_image_lightbox": "yes", "elem_lightbox_enable_counter": "yes", "elem_lightbox_enable_fullscreen": "yes", "elem_lightbox_enable_zoom": "yes", "elem_lightbox_enable_share": "yes", "elem_lightbox_title_src": "title", "elem_lightbox_description_src": "description" }, "editorPreferences": [] }, };
     </script>
     <script defer src="ympJava.js"></script>
-    <!---<script type="text/javascript" async src="signUpJava.js"></script>--->
+    <script type="text/javascript" async src="signUpJava.js"></script>
     <script>
         document.onkeydown=function(e)
         {
@@ -2005,8 +2041,45 @@
         }
         )();
     </script>
+    
+  <!-- Floating Language Toggle Button -->
+  <button id="language-toggle">
+    <img id="lang-flag" src="" alt="Language Flag" />
+  </button>
 
-    <!-- Floating Language Toggle Button -->
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+  const toggleButton = document.getElementById("language-toggle");
+  const flagImage = document.getElementById("lang-flag");
+
+  if (!toggleButton || !flagImage) {
+    console.error("Language toggle elements not found.");
+    return;
+  }
+
+  // Detect language from URL
+  let currentLanguage = window.location.pathname.startsWith("/es") ? "es" : "en";
+
+  // Set correct flag
+  if (currentLanguage === "en") {
+    flagImage.src = "/images/flags/spain.png"; // or use https://flagcdn.com/w40/es.png
+    flagImage.alt = "Español";
+  } else {
+    flagImage.src = "/images/flags/uk.png"; // or https://flagcdn.com/w40/gb.png
+    flagImage.alt = "English";
+  }
+
+  // Handle click
+  toggleButton.addEventListener("click", function () {
+    if (currentLanguage === "en") {
+      window.location.href = "https://yourmassage.pro/es.html";
+    } else {
+      window.location.href = "https://yourmassage.pro/index.html";
+    }
+  });
+});
+</script>
+    <!-- Floating Language Toggle Button 
     <button id="language-toggle">Español</button>
 
 <script>
@@ -2042,6 +2115,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
-</script>
+</script>--->
 </body>
 </html>
