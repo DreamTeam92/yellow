@@ -119,8 +119,8 @@
                                 "label": "Close"
                             }
                         ], 
-                        "description": "Please contact me before you make an online booking as I experience some technical issues", 
-                        "title": "ALERT !", 
+                        "description": "Thank you for visiting! Please note I`ve relocated and am no longer available in the UK.", 
+                        "title": "Hello from Spain!", 
                         "fields": [
                             {
                                 "placeholder": "Enter your name", 
