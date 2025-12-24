@@ -121,26 +121,9 @@
                         ], 
                         "description": "Thank you for visiting! Please note I`ve relocated and am no longer available in the UK.", 
                         "title": "Hello from Spain!", 
-                        "fields": [
-                            {
-                                "placeholder": "Enter your name", 
-                                "required": true, 
-                                "type": "text", 
-                                "name": "text", 
-                                "label": ""
-                            }, 
-                            {
-                                "name": "email", 
-                                "type": "email", 
-                                "required": true, 
-                                "value": "{email}", 
-                                "label": "", 
-                                "placeholder": "Your email address"
-                            }
-                        ], 
                         "note": "", 
                         "backgroundActions": []
-                    }, 
+                    },
                     "name": "page-1"
                 }, 
                 {
