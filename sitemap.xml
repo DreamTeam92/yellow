@@ -1,36 +1,67 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-   <url>
-      <loc>https://yourmassage.pro/</loc>
-      <lastmod>2024-07-14</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>1.0</priority>
-   </url>
-   <url>
-      <loc>https://yourmassage.pro/about</loc>
-      <lastmod>2024-07-14</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-   </url>
-   <url>
-      <loc>https://yourmassage.pro/services</loc>
-      <lastmod>2024-07-14</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-   </url>
-   <url>
-      <loc>https://yourmassage.pro/contact</loc>
-      <lastmod>2024-07-14</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-   </url>
-   <url>
-      <loc>https://yourmassage.pro/blog</loc>
-      <lastmod>2024-07-14</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>0.7</priority>
-   </url>
-   <!-- Add more URLs here -->
-
+<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+   <loc>https://yourmassage.pro/</loc>
+   <lastmod>2025-12-25T12:02:38+00:00</lastmod>
+   <priority>1.00</priority>
+</url>
+<url>
+   <loc>https://yourmassage.pro/treatments/swedish-massage.html</loc>
+   <lastmod>2025-12-25T12:02:38+00:00</lastmod>
+   <priority>0.80</priority>
+</url>
+<url>
+   <loc>https://yourmassage.pro/treatments/therapeutic-massage.html</loc>
+   <lastmod>2025-12-25T12:02:38+00:00</lastmod>
+   <priority>0.80</priority>
+</url>
+<url>
+   <loc>https://yourmassage.pro/treatments/deep-tissue-massage.html</loc>
+   <lastmod>2025-12-25T12:02:38+00:00</lastmod>
+   <priority>0.80</priority>
+</url>
+<url>
+   <loc>https://yourmassage.pro/treatments/lymphatic-drainage-massage.html</loc>
+   <lastmod>2025-12-25T12:02:38+00:00</lastmod>
+   <priority>0.80</priority>
+</url>
+<url>
+   <loc>https://yourmassage.pro/treatments/pregnancy-massage.html</loc>
+   <lastmod>2025-12-25T12:02:38+00:00</lastmod>
+   <priority>0.80</priority>
+</url>
+<url>
+   <loc>https://yourmassage.pro/payments/revolut.html</loc>
+   <lastmod>2025-12-25T12:02:38+00:00</lastmod>
+   <priority>0.80</priority>
+</url>
+<url>
+   <loc>https://yourmassage.pro/payments/bitcoin.html</loc>
+   <lastmod>2025-12-25T12:02:38+00:00</lastmod>
+   <priority>0.80</priority>
+</url>
+<url>
+   <loc>https://yourmassage.pro/payments/crypto-dot-com.html</loc>
+   <lastmod>2025-12-25T12:02:38+00:00</lastmod>
+   <priority>0.80</priority>
+</url>
+<url>
+   <loc>https://yourmassage.pro/terms-and-conditions.html</loc>
+   <lastmod>2025-12-25T12:02:38+00:00</lastmod>
+   <priority>0.80</priority>
+</url>
+<url>
+   <loc>https://yourmassage.pro/news/ultimate-relaxing-breaks.html</loc>
+   <lastmod>2025-12-25T12:02:38+00:00</lastmod>
+   <priority>0.80</priority>
+</url>
+<url>
+   <loc>https://yourmassage.pro/news/spa-struck.html</loc>
+   <lastmod>2025-12-25T12:02:38+00:00</lastmod>
+   <priority>0.80</priority>
+</url>
+<url>
+   <loc>https://yourmassage.pro/index.html</loc>
+   <lastmod>2025-12-25T12:02:38+00:00</lastmod>
+   <priority>0.64</priority>
+</url>
 </urlset>
