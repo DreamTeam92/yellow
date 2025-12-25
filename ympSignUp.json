@@ -97,49 +97,8 @@
                         }
                     }, 
                     "data": {
-                        "buttons": [
-                            {
-                                "visible": true, 
-                                "type": "primary", 
-                                "actions": [
-                                    {
-                                        "type": "submit"
-                                    }
-                                ], 
-                                "label": "ENQUIRE"
-                            }, 
-                            {
-                                "visible": false, 
-                                "type": "secondary", 
-                                "actions": [
-                                    {
-                                        "type": "close"
-                                    }
-                                ], 
-                                "label": "Close"
-                            }
-                        ], 
                         "description": "Thank you for visiting! Please note I`ve relocated and am no longer available in the UK.", 
-                        "title": "Hello from Spain!", 
-                        "fields": [
-                            {
-                                "placeholder": "Enter your name",
-                                "visible": false,
-                                "required": true, 
-                                "type": "text", 
-                                "name": "text", 
-                                "label": ""
-                            }, 
-                            {
-                                "name": "email", 
-                                "type": "email", 
-                                "required": true, 
-                                "value": "{email}", 
-                                "label": "",
-                                "visible": false,
-                                "placeholder": "Your email address"
-                            }
-                        ],
+                        "title": "Hello from Spain!",
                         "note": "", 
                         "backgroundActions": []
                     },
