@@ -14568,6 +14568,8 @@ button.swiper-pagination-bullet {
   }
   .elem-2 .elem-element.elem-element-a15 .elem-heading-title {
     font-size: 30px;
+    display: block;
+    margin-top: 45px;
   }
   .elem-2 .elem-element.elem-element-a15 > .elem-widget-container {
     margin: -80px 0 0;
